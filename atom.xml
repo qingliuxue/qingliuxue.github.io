@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>YOUR PAPA IS HERE</title>
+  
+  <subtitle>点线面</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-30T07:30:25.024Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>XUE</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode使用杂记</title>
+    <link href="http://example.com/2021/01/30/vscode%E4%BD%BF%E7%94%A8%E6%9D%82%E8%AE%B0/"/>
+    <id>http://example.com/2021/01/30/vscode%E4%BD%BF%E7%94%A8%E6%9D%82%E8%AE%B0/</id>
+    <published>2021-01-30T07:25:41.000Z</published>
+    <updated>2021-01-30T07:30:25.024Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1、安装"><a href="#1、安装" class="headerlink" title="1、安装"></a>1、安装</h2><h2 id="2、vscode居然可以做到对打开的文本进行实时同步！"><a href="#2、vscode居然可以做到对打开的文本进行实时同步！" class="headerlink" title="2、vscode居然可以做到对打开的文本进行实时同步！"></a>2、vscode居然可以做到对打开的文本进行实时同步！</h2><ul><li>解释:Typora 和 vscode 都打开了一个文本,在 typora 中修改了文本内容，居然保存后vscode实时也进行了修改！体贴！</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1、安装&quot;&gt;&lt;a href=&quot;#1、安装&quot; class=&quot;headerlink&quot; title=&quot;1、安装&quot;&gt;&lt;/a&gt;1、安装&lt;/h2&gt;&lt;h2 id=&quot;2、vscode居然可以做到对打开的文本进行实时同步！&quot;&gt;&lt;a href=&quot;#2、vscode居然可以做到对打开的</summary>
+      
+    
+    
+    
+    
+    <category term="vscode" scheme="http://example.com/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试hexo中的功能</title>
+    <link href="http://example.com/2021/01/30/%E6%B5%8B%E8%AF%95hexo%E4%B8%AD%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
+    <id>http://example.com/2021/01/30/%E6%B5%8B%E8%AF%95hexo%E4%B8%AD%E7%9A%84%E5%8A%9F%E8%83%BD/</id>
+    <published>2021-01-30T06:58:06.000Z</published>
+    <updated>2021-01-30T15:16:59.444Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1、在hexo中能否直接使用memaid-？"><a href="#1、在hexo中能否直接使用memaid-？" class="headerlink" title="1、在hexo中能否直接使用memaid ？"></a>1、在hexo中能否直接使用memaid ？</h1><p>在 Typora 中可以直接使用 memaid 生成图，hexo可以吗？不能。</p><ul><li><p>解决办法：安装插件 + 修改配置</p><p>插件：</p><blockquote><p>npm install hexo-filter-mermaid-diagrams</p></blockquote><p>配置：</p><ul><li>说法一是要在hexo的blog目录下的 <strong><em><code>_config.yml</code></em></strong> 文件中添加以下代码</li></ul><blockquote><p># mermaid chart</p><p>mermaid: ## mermaid url <a href="https://github.com/knsv/mermaid">https://github.com/knsv/mermaid</a></p><p> enable: true # default true</p><p> version: “7.1.2” # default v7.1.2</p><p> options: # find more api options from <a href="https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js">https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js</a></p><p>  #startOnload: true // default true</p></blockquote><ul><li>说法二是其实没必要，只要的next主题中的 <strong><em><code>_config.yml</code></em></strong> 支持mermaid部分中打开就可以。</li></ul><p>经检查，本人next主题中居然没有这个选项，疑似hexo版本不新？遂打算给hexo升级。失败，没功夫搞清。还是老实选择方法一。</p><ul><li><p>编辑blog/themes/next/layout/_partials/footer.swig，在最后添加如下内容：</p><blockquote></blockquote></li></ul><p>测试：</p><pre class="mermaid">  graph LRA(TEST)</pre></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1、在hexo中能否直接使用memaid-？&quot;&gt;&lt;a href=&quot;#1、在hexo中能否直接使用memaid-？&quot; class=&quot;headerlink&quot; title=&quot;1、在hexo中能否直接使用memaid ？&quot;&gt;&lt;/a&gt;1、在hexo中能否直接使用memaid</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello YOYO</title>
+    <link href="http://example.com/2021/01/28/Hello-YOYO/"/>
+    <id>http://example.com/2021/01/28/Hello-YOYO/</id>
+    <published>2021-01-28T11:10:17.000Z</published>
+    <updated>2021-01-28T17:36:25.864Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2021/01/28/Hello-YOYO/e.jpg" alt="安然稳步"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2021/01/28/Hello-YOYO/e.jpg&quot; alt=&quot;安然稳步&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="我是你爸爸！" scheme="http://example.com/tags/%E6%88%91%E6%98%AF%E4%BD%A0%E7%88%B8%E7%88%B8%EF%BC%81/"/>
+    
+  </entry>
+  
+</feed>
